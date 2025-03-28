@@ -1,0 +1,21 @@
+# /Users/kurahararikuto/sboxanalyzer/espresso/build/espresso -Dmany -estrong -epos -s -t -of snow/tt/alpha_0_tt.txt
+# UC Berkeley, Espresso Version v2.4, Release date 06/25/21
+# READ       	Time was 0.00 sec, cost is c=256(256) in=10240 out=256 tot=10496
+# COMPL      	Time was 0.00 sec, cost is c=704(704) in=3904 out=704 tot=4608
+# PLA is snow/tt/alpha_0_tt.txt with 40 inputs and 1 outputs
+# ON-set cost is  c=704(704) in=3904 out=704 tot=4608
+# OFF-set cost is c=256(256) in=10240 out=256 tot=10496
+# DC-set cost is  c=0(0) in=0 out=0 tot=0
+# phase is ---------------------------------------- 0
+# EXPAND     	Time was 0.00 sec, cost is c=704(0) in=3904 out=704 tot=4608
+# IRRED      	Time was 0.02 sec, cost is c=704(0) in=3904 out=704 tot=4608
+# ESSEN      	Time was 0.12 sec, cost is c=0(0) in=0 out=0 tot=0
+# REDUCE     	Time was 0.20 sec, cost is c=704(592) in=5984 out=704 tot=6688
+# EXPAND     	Time was 0.00 sec, cost is c=168(0) in=712 out=168 tot=880
+# IRRED      	Time was 0.01 sec, cost is c=168(0) in=712 out=168 tot=880
+# REDUCE     	Time was 1.56 sec, cost is c=168(152) in=1144 out=168 tot=1312
+# EXPAND     	Time was 0.00 sec, cost is c=168(0) in=712 out=168 tot=880
+# IRRED      	Time was 0.01 sec, cost is c=168(0) in=712 out=168 tot=880
+# REDUCE_GASP	Time was 0.60 sec, cost is c=168(168) in=1192 out=168 tot=1360
+# EXPAND_GASP	Time was 0.00 sec, cost is c=720(0) in=3040 out=720 tot=3760
+# NEWPRIMES	Time was 0.00 sec, cost is c=672(0) in=2944 out=672 tot=3616

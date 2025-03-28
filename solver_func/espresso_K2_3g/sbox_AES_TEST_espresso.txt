@@ -1,0 +1,9 @@
+# /Users/kurahararikuto/sboxanalyzer/espresso/build/espresso -Dmany -estrong -epos -s -t -of snow/tt/sbox_AES_TEST_tt.txt
+# UC Berkeley, Espresso Version v2.4, Release date 06/25/21
+# READ       	Time was 0.01 sec, cost is c=32386(32386) in=744878 out=32386 tot=777264
+# COMPL      	Time was 0.94 sec, cost is c=16705(16705) in=226886 out=16705 tot=243591
+# PLA is snow/tt/sbox_AES_TEST_tt.txt with 23 inputs and 1 outputs
+# ON-set cost is  c=16705(16705) in=226886 out=16705 tot=243591
+# OFF-set cost is c=32386(32386) in=744878 out=32386 tot=777264
+# DC-set cost is  c=0(0) in=0 out=0 tot=0
+# phase is ----------------------- 0

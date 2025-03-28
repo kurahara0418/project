@@ -1,0 +1,41 @@
+# /Users/kurahararikuto/sboxanalyzer/espresso/build/espresso -Dmany -estrong -epos -s -t -of snow/tt/weight_2_tt.txt
+# UC Berkeley, Espresso Version v2.4, Release date 06/25/21
+# READ       	Time was 0.00 sec, cost is c=8(8) in=32 out=8 tot=40
+# COMPL      	Time was 0.00 sec, cost is c=6(6) in=20 out=6 tot=26
+# PLA is snow/tt/weight_2_tt.txt with 4 inputs and 1 outputs
+# ON-set cost is  c=6(6) in=20 out=6 tot=26
+# OFF-set cost is c=8(8) in=32 out=8 tot=40
+# DC-set cost is  c=0(0) in=0 out=0 tot=0
+# phase is ---- 0
+# EXPAND     	Time was 0.00 sec, cost is c=6(0) in=20 out=6 tot=26
+# IRRED      	Time was 0.00 sec, cost is c=6(0) in=20 out=6 tot=26
+# ESSEN      	Time was 0.00 sec, cost is c=2(0) in=8 out=2 tot=10
+# REDUCE     	Time was 0.00 sec, cost is c=4(2) in=14 out=4 tot=18
+# EXPAND     	Time was 0.00 sec, cost is c=4(0) in=12 out=4 tot=16
+# IRRED      	Time was 0.00 sec, cost is c=4(0) in=12 out=4 tot=16
+# REDUCE_GASP	Time was 0.00 sec, cost is c=4(4) in=16 out=4 tot=20
+# EXPAND_GASP	Time was 0.00 sec, cost is c=8(0) in=24 out=8 tot=32
+# NEWPRIMES	Time was 0.00 sec, cost is c=6(0) in=18 out=6 tot=24
+# IRRED      	Time was 0.00 sec, cost is c=3(0) in=9 out=3 tot=12
+# REDUCE     	Time was 0.00 sec, cost is c=3(0) in=9 out=3 tot=12
+# EXPAND     	Time was 0.00 sec, cost is c=3(0) in=9 out=3 tot=12
+# IRRED      	Time was 0.00 sec, cost is c=3(0) in=9 out=3 tot=12
+# REDUCE_GASP	Time was 0.00 sec, cost is c=3(0) in=9 out=3 tot=12
+# EXPAND_GASP	Time was 0.00 sec, cost is c=3(0) in=9 out=3 tot=12
+# NEWPRIMES	Time was 0.00 sec, cost is c=3(0) in=9 out=3 tot=12
+# IRRED      	Time was 0.00 sec, cost is c=3(0) in=9 out=3 tot=12
+# ADJUST     	Cost is c=5(0) in=17 out=5 tot=22
+# MV_REDUCE  	Time was 0.00 sec, cost is c=5(0) in=17 out=5 tot=22
+# ESPRESSO   	Time was 0.00 sec, cost is c=5(0) in=17 out=5 tot=22
+.i 4
+.o 1
+.ilb a0 a1 a2 w0
+.ob F
+#.phase 0
+.p 5
+01-0 1
+-010 1
+1-00 1
+0001 1
+1111 1
+.e

@@ -1,0 +1,53 @@
+# /Users/kurahararikuto/sboxanalyzer/espresso/build/espresso -Dmany -estrong -epos -s -t -of /Users/kurahararikuto/Documents/python/snowv/tt/aes_modulo_tt.txt
+# UC Berkeley, Espresso Version v2.4, Release date 06/25/21
+# READ       	Time was 0.00 sec, cost is c=512(512) in=8704 out=512 tot=9216
+# COMPL      	Time was 0.00 sec, cost is c=24(24) in=64 out=24 tot=88
+# PLA is /Users/kurahararikuto/Documents/python/snowv/tt/aes_modulo_tt.txt with 17 inputs and 1 outputs
+# ON-set cost is  c=24(24) in=64 out=24 tot=88
+# OFF-set cost is c=512(512) in=8704 out=512 tot=9216
+# DC-set cost is  c=0(0) in=0 out=0 tot=0
+# phase is ----------------- 0
+# EXPAND     	Time was 0.00 sec, cost is c=24(0) in=64 out=24 tot=88
+# IRRED      	Time was 0.00 sec, cost is c=24(0) in=64 out=24 tot=88
+# ESSEN      	Time was 0.00 sec, cost is c=8(0) in=16 out=8 tot=24
+# REDUCE     	Time was 0.00 sec, cost is c=16(0) in=48 out=16 tot=64
+# EXPAND     	Time was 0.00 sec, cost is c=16(0) in=48 out=16 tot=64
+# IRRED      	Time was 0.00 sec, cost is c=16(0) in=48 out=16 tot=64
+# REDUCE_GASP	Time was 0.00 sec, cost is c=16(0) in=48 out=16 tot=64
+# EXPAND_GASP	Time was 0.00 sec, cost is c=16(0) in=48 out=16 tot=64
+# NEWPRIMES	Time was 0.00 sec, cost is c=16(0) in=48 out=16 tot=64
+# IRRED      	Time was 0.00 sec, cost is c=16(0) in=48 out=16 tot=64
+# ADJUST     	Cost is c=24(0) in=64 out=24 tot=88
+# MV_REDUCE  	Time was 0.00 sec, cost is c=24(0) in=64 out=24 tot=88
+# ESPRESSO   	Time was 0.00 sec, cost is c=24(0) in=64 out=24 tot=88
+.i 17
+.o 1
+.ilb a0 a1 a2 a3 a4 a5 a6 a7 a8 b0 b1 b2 b3 b4 b5 b6 b7
+.ob F
+#.phase 0
+.p 24
+1---1-------1---- 1
+0---0-------1---- 1
+0---1-------0---- 1
+1---0-------0---- 1
+1----1-------1--- 1
+0----0-------1--- 1
+0----1-------0--- 1
+1----0-------0--- 1
+1------1-------1- 1
+0------0-------1- 1
+0------1-------0- 1
+1------0-------0- 1
+1-------1-------1 1
+0-------0-------1 1
+0-------1-------0 1
+1-------0-------0 1
+------1-------0-- 1
+------0-------1-- 1
+---1-------0----- 1
+---0-------1----- 1
+--1-------0------ 1
+--0-------1------ 1
+-1-------0------- 1
+-0-------1------- 1
+.e

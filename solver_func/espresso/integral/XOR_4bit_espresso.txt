@@ -1,0 +1,40 @@
+# /Users/kurahararikuto/sboxanalyzer/espresso/build/espresso -Dmany -estrong -epos -s -t -of solver_func/tt/integral/XOR_4bit_tt.txt
+# UC Berkeley, Espresso Version v2.4, Release date 06/25/21
+# READ       	Time was 0.00 sec, cost is c=5(5) in=25 out=5 tot=30
+# COMPL      	Time was 0.00 sec, cost is c=11(11) in=25 out=11 tot=36
+# PLA is solver_func/tt/integral/XOR_4bit_tt.txt with 5 inputs and 1 outputs
+# ON-set cost is  c=11(11) in=25 out=11 tot=36
+# OFF-set cost is c=5(5) in=25 out=5 tot=30
+# DC-set cost is  c=0(0) in=0 out=0 tot=0
+# phase is ----- 0
+# EXPAND     	Time was 0.00 sec, cost is c=11(0) in=25 out=11 tot=36
+# IRRED      	Time was 0.00 sec, cost is c=11(0) in=25 out=11 tot=36
+# ESSEN      	Time was 0.00 sec, cost is c=11(0) in=25 out=11 tot=36
+# REDUCE     	Time was 0.00 sec, cost is c=0(0) in=0 out=0 tot=0
+# EXPAND     	Time was 0.00 sec, cost is c=0(0) in=0 out=0 tot=0
+# IRRED      	Time was 0.00 sec, cost is c=0(0) in=0 out=0 tot=0
+# REDUCE_GASP	Time was 0.00 sec, cost is c=0(0) in=0 out=0 tot=0
+# EXPAND_GASP	Time was 0.00 sec, cost is c=0(0) in=0 out=0 tot=0
+# NEWPRIMES	Time was 0.00 sec, cost is c=0(0) in=0 out=0 tot=0
+# IRRED      	Time was 0.00 sec, cost is c=0(0) in=0 out=0 tot=0
+# ADJUST     	Cost is c=11(0) in=25 out=11 tot=36
+# MV_REDUCE  	Time was 0.00 sec, cost is c=11(0) in=25 out=11 tot=36
+# ESPRESSO   	Time was 0.00 sec, cost is c=11(0) in=25 out=11 tot=36
+.i 5
+.o 1
+.ilb a0 a1 a2 a3 b0
+.ob F
+#.phase 0
+.p 11
+00001 1
+---10 1
+--1-0 1
+-1--0 1
+1---0 1
+--11- 1
+-1-1- 1
+1--1- 1
+-11-- 1
+1-1-- 1
+11--- 1
+.e

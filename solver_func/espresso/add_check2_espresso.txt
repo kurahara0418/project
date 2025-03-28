@@ -1,0 +1,30 @@
+# /Users/kurahararikuto/sboxanalyzer/espresso/build/espresso -Dmany -estrong -epos -s -t -of solver_func/tt/add_check2_tt.txt
+# UC Berkeley, Espresso Version v2.4, Release date 06/25/21
+# READ       	Time was 0.00 sec, cost is c=3(3) in=6 out=3 tot=9
+# COMPL      	Time was 0.00 sec, cost is c=1(1) in=2 out=1 tot=3
+# PLA is solver_func/tt/add_check2_tt.txt with 2 inputs and 1 outputs
+# ON-set cost is  c=1(1) in=2 out=1 tot=3
+# OFF-set cost is c=3(3) in=6 out=3 tot=9
+# DC-set cost is  c=0(0) in=0 out=0 tot=0
+# phase is -- 0
+# EXPAND     	Time was 0.00 sec, cost is c=1(0) in=2 out=1 tot=3
+# IRRED      	Time was 0.00 sec, cost is c=1(0) in=2 out=1 tot=3
+# ESSEN      	Time was 0.00 sec, cost is c=1(0) in=2 out=1 tot=3
+# REDUCE     	Time was 0.00 sec, cost is c=0(0) in=0 out=0 tot=0
+# EXPAND     	Time was 0.00 sec, cost is c=0(0) in=0 out=0 tot=0
+# IRRED      	Time was 0.00 sec, cost is c=0(0) in=0 out=0 tot=0
+# REDUCE_GASP	Time was 0.00 sec, cost is c=0(0) in=0 out=0 tot=0
+# EXPAND_GASP	Time was 0.00 sec, cost is c=0(0) in=0 out=0 tot=0
+# NEWPRIMES	Time was 0.00 sec, cost is c=0(0) in=0 out=0 tot=0
+# IRRED      	Time was 0.00 sec, cost is c=0(0) in=0 out=0 tot=0
+# ADJUST     	Cost is c=1(0) in=2 out=1 tot=3
+# MV_REDUCE  	Time was 0.00 sec, cost is c=1(0) in=2 out=1 tot=3
+# ESPRESSO   	Time was 0.00 sec, cost is c=1(0) in=2 out=1 tot=3
+.i 2
+.o 1
+.ilb a0 a1
+.ob F
+#.phase 0
+.p 1
+10 1
+.e

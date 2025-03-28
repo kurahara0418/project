@@ -1,0 +1,45 @@
+# /Users/kurahararikuto/sboxanalyzer/espresso/build/espresso -Dmany -estrong -epos -s -t -of /Users/kurahararikuto/Documents/python/snowv/tt/xor_4bit_tt.txt
+# UC Berkeley, Espresso Version v2.4, Release date 06/25/21
+# READ       	Time was 0.00 sec, cost is c=16(16) in=80 out=16 tot=96
+# COMPL      	Time was 0.00 sec, cost is c=16(16) in=80 out=16 tot=96
+# PLA is /Users/kurahararikuto/Documents/python/snowv/tt/xor_4bit_tt.txt with 5 inputs and 1 outputs
+# ON-set cost is  c=16(16) in=80 out=16 tot=96
+# OFF-set cost is c=16(16) in=80 out=16 tot=96
+# DC-set cost is  c=0(0) in=0 out=0 tot=0
+# phase is ----- 0
+# EXPAND     	Time was 0.00 sec, cost is c=16(0) in=80 out=16 tot=96
+# IRRED      	Time was 0.00 sec, cost is c=16(0) in=80 out=16 tot=96
+# ESSEN      	Time was 0.00 sec, cost is c=16(0) in=80 out=16 tot=96
+# REDUCE     	Time was 0.00 sec, cost is c=0(0) in=0 out=0 tot=0
+# EXPAND     	Time was 0.00 sec, cost is c=0(0) in=0 out=0 tot=0
+# IRRED      	Time was 0.00 sec, cost is c=0(0) in=0 out=0 tot=0
+# REDUCE_GASP	Time was 0.00 sec, cost is c=0(0) in=0 out=0 tot=0
+# EXPAND_GASP	Time was 0.00 sec, cost is c=0(0) in=0 out=0 tot=0
+# NEWPRIMES	Time was 0.00 sec, cost is c=0(0) in=0 out=0 tot=0
+# IRRED      	Time was 0.00 sec, cost is c=0(0) in=0 out=0 tot=0
+# ADJUST     	Cost is c=16(0) in=80 out=16 tot=96
+# MV_REDUCE  	Time was 0.00 sec, cost is c=16(0) in=80 out=16 tot=96
+# ESPRESSO   	Time was 0.00 sec, cost is c=16(0) in=80 out=16 tot=96
+.i 5
+.o 1
+.ilb a0 a1 a2 a3 b0
+.ob F
+#.phase 0
+.p 16
+10000 1
+01000 1
+00100 1
+11100 1
+00010 1
+11010 1
+10110 1
+01110 1
+00001 1
+11001 1
+10101 1
+01101 1
+10011 1
+01011 1
+00111 1
+11111 1
+.e

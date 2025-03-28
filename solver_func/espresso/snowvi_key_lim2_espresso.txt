@@ -1,0 +1,38 @@
+# /Users/kurahararikuto/sboxanalyzer/espresso/build/espresso -Dmany -estrong -epos -s -t -of snow/tt/snowvi_key_lim2_tt.txt
+# UC Berkeley, Espresso Version v2.4, Release date 06/25/21
+# READ       	Time was 0.00 sec, cost is c=256(256) in=2304 out=256 tot=2560
+# COMPL      	Time was 0.00 sec, cost is c=9(9) in=25 out=9 tot=34
+# PLA is snow/tt/snowvi_key_lim2_tt.txt with 9 inputs and 1 outputs
+# ON-set cost is  c=9(9) in=25 out=9 tot=34
+# OFF-set cost is c=256(256) in=2304 out=256 tot=2560
+# DC-set cost is  c=0(0) in=0 out=0 tot=0
+# phase is --------- 0
+# EXPAND     	Time was 0.00 sec, cost is c=9(0) in=25 out=9 tot=34
+# IRRED      	Time was 0.00 sec, cost is c=9(0) in=25 out=9 tot=34
+# ESSEN      	Time was 0.00 sec, cost is c=9(0) in=25 out=9 tot=34
+# REDUCE     	Time was 0.00 sec, cost is c=0(0) in=0 out=0 tot=0
+# EXPAND     	Time was 0.00 sec, cost is c=0(0) in=0 out=0 tot=0
+# IRRED      	Time was 0.00 sec, cost is c=0(0) in=0 out=0 tot=0
+# REDUCE_GASP	Time was 0.00 sec, cost is c=0(0) in=0 out=0 tot=0
+# EXPAND_GASP	Time was 0.00 sec, cost is c=0(0) in=0 out=0 tot=0
+# NEWPRIMES	Time was 0.00 sec, cost is c=0(0) in=0 out=0 tot=0
+# IRRED      	Time was 0.00 sec, cost is c=0(0) in=0 out=0 tot=0
+# ADJUST     	Cost is c=9(0) in=25 out=9 tot=34
+# MV_REDUCE  	Time was 0.00 sec, cost is c=9(0) in=25 out=9 tot=34
+# ESPRESSO   	Time was 0.00 sec, cost is c=9(0) in=25 out=9 tot=34
+.i 9
+.o 1
+.ilb a0 a1 a2 a3 a4 a5 a6 a7 f0
+.ob F
+#.phase 0
+.p 9
+000000001 1
+-------10 1
+------1-0 1
+-----1--0 1
+----1---0 1
+---1----0 1
+--1-----0 1
+-1------0 1
+1-------0 1
+.e

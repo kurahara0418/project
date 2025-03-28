@@ -1,0 +1,3 @@
+# /Users/kurahararikuto/sboxanalyzer/espresso/build/espresso -Dmany -estrong -epos -s -t -of snow/tt/iv_hw2_lim_tt.txt
+# UC Berkeley, Espresso Version v2.4, Release date 06/25/21
+# READ       	Time was 0.02 sec, cost is c=8255(8255) in=1056640 out=8255 tot=1064895

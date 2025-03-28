@@ -1,0 +1,78 @@
+# /Users/kurahararikuto/sboxanalyzer/espresso/build/espresso -Dmany -estrong -epos -s -t -of solver_func/tt/signed/F_add_c_tt.txt
+# UC Berkeley, Espresso Version v2.4, Release date 06/25/21
+# READ       	Time was 0.00 sec, cost is c=27(27) in=270 out=27 tot=297
+# COMPL      	Time was 0.00 sec, cost is c=77(77) in=312 out=77 tot=389
+# PLA is solver_func/tt/signed/F_add_c_tt.txt with 10 inputs and 1 outputs
+# ON-set cost is  c=77(77) in=312 out=77 tot=389
+# OFF-set cost is c=27(27) in=270 out=27 tot=297
+# DC-set cost is  c=0(0) in=0 out=0 tot=0
+# phase is ---------- 0
+# EXPAND     	Time was 0.00 sec, cost is c=77(0) in=287 out=77 tot=364
+# IRRED      	Time was 0.00 sec, cost is c=46(0) in=175 out=46 tot=221
+# ESSEN      	Time was 0.00 sec, cost is c=2(0) in=8 out=2 tot=10
+# REDUCE     	Time was 0.00 sec, cost is c=44(38) in=301 out=44 tot=345
+# EXPAND     	Time was 0.00 sec, cost is c=35(0) in=127 out=35 tot=162
+# IRRED      	Time was 0.00 sec, cost is c=35(0) in=127 out=35 tot=162
+# REDUCE     	Time was 0.00 sec, cost is c=35(29) in=226 out=35 tot=261
+# EXPAND     	Time was 0.00 sec, cost is c=34(0) in=123 out=34 tot=157
+# IRRED      	Time was 0.00 sec, cost is c=34(0) in=123 out=34 tot=157
+# REDUCE     	Time was 0.00 sec, cost is c=34(27) in=211 out=34 tot=245
+# EXPAND     	Time was 0.00 sec, cost is c=33(0) in=119 out=33 tot=152
+# IRRED      	Time was 0.00 sec, cost is c=32(0) in=116 out=32 tot=148
+# REDUCE     	Time was 0.00 sec, cost is c=32(27) in=197 out=32 tot=229
+# EXPAND     	Time was 0.00 sec, cost is c=32(0) in=116 out=32 tot=148
+# IRRED      	Time was 0.00 sec, cost is c=32(0) in=116 out=32 tot=148
+# REDUCE_GASP	Time was 0.00 sec, cost is c=32(27) in=208 out=32 tot=240
+# EXPAND_GASP	Time was 0.00 sec, cost is c=73(0) in=335 out=73 tot=408
+# NEWPRIMES	Time was 0.00 sec, cost is c=86(0) in=380 out=86 tot=466
+# IRRED      	Time was 0.00 sec, cost is c=31(0) in=124 out=31 tot=155
+# REDUCE     	Time was 0.00 sec, cost is c=31(17) in=186 out=31 tot=217
+# EXPAND     	Time was 0.00 sec, cost is c=31(0) in=124 out=31 tot=155
+# IRRED      	Time was 0.00 sec, cost is c=31(0) in=124 out=31 tot=155
+# REDUCE_GASP	Time was 0.00 sec, cost is c=31(17) in=195 out=31 tot=226
+# EXPAND_GASP	Time was 0.00 sec, cost is c=63(0) in=279 out=63 tot=342
+# NEWPRIMES	Time was 0.00 sec, cost is c=70(0) in=311 out=70 tot=381
+# IRRED      	Time was 0.00 sec, cost is c=31(0) in=135 out=31 tot=166
+# ADJUST     	Cost is c=33(0) in=143 out=33 tot=176
+# MV_REDUCE  	Time was 0.00 sec, cost is c=33(0) in=143 out=33 tot=176
+# ESPRESSO   	Time was 0.00 sec, cost is c=33(0) in=143 out=33 tot=176
+.i 10
+.o 1
+.ilb a0 a1 a2 a3 a4 a5 b0 b1 b2 b3
+.ob F
+#.phase 0
+.p 33
+10-------- 1
+--10------ 1
+----10---- 1
+------10-- 1
+--------10 1
+1-------01 1
+--1-----01 1
+----1---01 1
+010---1--- 1
+--010-1--- 1
+0---011--- 1
+-01---01-- 1
+-0--1-01-- 1
+1-1-1---0- 1
+1-1---0-0- 1
+1---1-0-0- 1
+--1-1-0-0- 1
+00-----1-1 1
+01------11 1
+--01----11 1
+----01--11 1
+-100-1-1-- 1
+-1-100-1-- 1
+--0000---1 1
+1--1-10--1 1
+0-0101---0 1
+0000-100-- 1
+00-10000-- 1
+00-1-1-100 1
+010-0-0000 1
+1100000-00 1
+-1-1-1-0-- 1
+-0-0-0-1-- 1
+.e

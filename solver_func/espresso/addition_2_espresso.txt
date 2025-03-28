@@ -1,0 +1,37 @@
+# /Users/kurahararikuto/sboxanalyzer/espresso/build/espresso -Dmany -estrong -epos -s -t -of snow/tt/addition_2_tt.txt
+# UC Berkeley, Espresso Version v2.4, Release date 06/25/21
+# READ       	Time was 0.00 sec, cost is c=24(24) in=120 out=24 tot=144
+# COMPL      	Time was 0.00 sec, cost is c=8(8) in=40 out=8 tot=48
+# PLA is snow/tt/addition_2_tt.txt with 5 inputs and 1 outputs
+# ON-set cost is  c=8(8) in=40 out=8 tot=48
+# OFF-set cost is c=24(24) in=120 out=24 tot=144
+# DC-set cost is  c=0(0) in=0 out=0 tot=0
+# phase is ----- 0
+# EXPAND     	Time was 0.00 sec, cost is c=8(0) in=40 out=8 tot=48
+# IRRED      	Time was 0.00 sec, cost is c=8(0) in=40 out=8 tot=48
+# ESSEN      	Time was 0.00 sec, cost is c=8(0) in=40 out=8 tot=48
+# REDUCE     	Time was 0.00 sec, cost is c=0(0) in=0 out=0 tot=0
+# EXPAND     	Time was 0.00 sec, cost is c=0(0) in=0 out=0 tot=0
+# IRRED      	Time was 0.00 sec, cost is c=0(0) in=0 out=0 tot=0
+# REDUCE_GASP	Time was 0.00 sec, cost is c=0(0) in=0 out=0 tot=0
+# EXPAND_GASP	Time was 0.00 sec, cost is c=0(0) in=0 out=0 tot=0
+# NEWPRIMES	Time was 0.00 sec, cost is c=0(0) in=0 out=0 tot=0
+# IRRED      	Time was 0.00 sec, cost is c=0(0) in=0 out=0 tot=0
+# ADJUST     	Cost is c=8(0) in=40 out=8 tot=48
+# MV_REDUCE  	Time was 0.00 sec, cost is c=8(0) in=40 out=8 tot=48
+# ESPRESSO   	Time was 0.00 sec, cost is c=8(0) in=40 out=8 tot=48
+.i 5
+.o 1
+.ilb a0 a1 a2 a3 w0
+.ob F
+#.phase 0
+.p 8
+10000 1
+01000 1
+00100 1
+11100 1
+00010 1
+11010 1
+10110 1
+01110 1
+.e

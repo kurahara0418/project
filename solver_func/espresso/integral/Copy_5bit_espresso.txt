@@ -1,0 +1,45 @@
+# /Users/kurahararikuto/sboxanalyzer/espresso/build/espresso -Dmany -estrong -epos -s -t -of solver_func/tt/integral/Copy_5bit_tt.txt
+# UC Berkeley, Espresso Version v2.4, Release date 06/25/21
+# READ       	Time was 0.00 sec, cost is c=6(6) in=36 out=6 tot=42
+# COMPL      	Time was 0.00 sec, cost is c=16(16) in=36 out=16 tot=52
+# PLA is solver_func/tt/integral/Copy_5bit_tt.txt with 6 inputs and 1 outputs
+# ON-set cost is  c=16(16) in=36 out=16 tot=52
+# OFF-set cost is c=6(6) in=36 out=6 tot=42
+# DC-set cost is  c=0(0) in=0 out=0 tot=0
+# phase is ------ 0
+# EXPAND     	Time was 0.00 sec, cost is c=16(0) in=36 out=16 tot=52
+# IRRED      	Time was 0.00 sec, cost is c=16(0) in=36 out=16 tot=52
+# ESSEN      	Time was 0.00 sec, cost is c=16(0) in=36 out=16 tot=52
+# REDUCE     	Time was 0.00 sec, cost is c=0(0) in=0 out=0 tot=0
+# EXPAND     	Time was 0.00 sec, cost is c=0(0) in=0 out=0 tot=0
+# IRRED      	Time was 0.00 sec, cost is c=0(0) in=0 out=0 tot=0
+# REDUCE_GASP	Time was 0.00 sec, cost is c=0(0) in=0 out=0 tot=0
+# EXPAND_GASP	Time was 0.00 sec, cost is c=0(0) in=0 out=0 tot=0
+# NEWPRIMES	Time was 0.00 sec, cost is c=0(0) in=0 out=0 tot=0
+# IRRED      	Time was 0.00 sec, cost is c=0(0) in=0 out=0 tot=0
+# ADJUST     	Cost is c=16(0) in=36 out=16 tot=52
+# MV_REDUCE  	Time was 0.00 sec, cost is c=16(0) in=36 out=16 tot=52
+# ESPRESSO   	Time was 0.00 sec, cost is c=16(0) in=36 out=16 tot=52
+.i 6
+.o 1
+.ilb a0 b0 b1 b2 b3 b4
+.ob F
+#.phase 0
+.p 16
+100000 1
+----11 1
+---1-1 1
+--1--1 1
+-1---1 1
+0----1 1
+---11- 1
+--1-1- 1
+-1--1- 1
+0---1- 1
+--11-- 1
+-1-1-- 1
+0--1-- 1
+-11--- 1
+0-1--- 1
+01---- 1
+.e

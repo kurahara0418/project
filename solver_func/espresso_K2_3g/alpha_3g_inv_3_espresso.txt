@@ -1,0 +1,76 @@
+# /Users/kurahararikuto/sboxanalyzer/espresso/build/espresso -Dmany -estrong -epos -s -t -of snow/tt/alpha_3g_inv_3_tt.txt
+# UC Berkeley, Espresso Version v2.4, Release date 06/25/21
+# READ       	Time was 0.00 sec, cost is c=256(256) in=4096 out=256 tot=4352
+# COMPL      	Time was 0.00 sec, cost is c=120(120) in=632 out=120 tot=752
+# PLA is snow/tt/alpha_3g_inv_3_tt.txt with 16 inputs and 1 outputs
+# ON-set cost is  c=120(120) in=632 out=120 tot=752
+# OFF-set cost is c=256(256) in=4096 out=256 tot=4352
+# DC-set cost is  c=0(0) in=0 out=0 tot=0
+# phase is ---------------- 0
+# EXPAND     	Time was 0.00 sec, cost is c=120(0) in=632 out=120 tot=752
+# IRRED      	Time was 0.00 sec, cost is c=120(0) in=632 out=120 tot=752
+# ESSEN      	Time was 0.00 sec, cost is c=0(0) in=0 out=0 tot=0
+# REDUCE     	Time was 0.00 sec, cost is c=120(104) in=848 out=120 tot=968
+# EXPAND     	Time was 0.00 sec, cost is c=44(0) in=156 out=44 tot=200
+# IRRED      	Time was 0.00 sec, cost is c=44(0) in=156 out=44 tot=200
+# REDUCE     	Time was 0.00 sec, cost is c=44(0) in=156 out=44 tot=200
+# EXPAND     	Time was 0.00 sec, cost is c=44(0) in=156 out=44 tot=200
+# IRRED      	Time was 0.00 sec, cost is c=44(0) in=156 out=44 tot=200
+# REDUCE_GASP	Time was 0.00 sec, cost is c=44(0) in=156 out=44 tot=200
+# EXPAND_GASP	Time was 0.00 sec, cost is c=44(0) in=156 out=44 tot=200
+# NEWPRIMES	Time was 0.00 sec, cost is c=44(0) in=156 out=44 tot=200
+# IRRED      	Time was 0.00 sec, cost is c=44(0) in=156 out=44 tot=200
+# ADJUST     	Cost is c=44(0) in=156 out=44 tot=200
+# MV_REDUCE  	Time was 0.00 sec, cost is c=44(0) in=156 out=44 tot=200
+# ESPRESSO   	Time was 0.02 sec, cost is c=44(0) in=156 out=44 tot=200
+.i 16
+.o 1
+.ilb a0 a1 a2 a3 a4 a5 a6 a7 b0 b1 b2 b3 b4 b5 b6 b7
+.ob F
+#.phase 0
+.p 44
+---1--1----1---- 1
+---0--0----1---- 1
+---0--1----0---- 1
+---1--0----0---- 1
+----1--1----1--- 1
+----0--0----1--- 1
+-1------1---1--- 1
+-0------0---1--- 1
+----0--1----0--- 1
+----1--0----0--- 1
+-0------1---0--- 1
+-1------0---0--- 1
+-----1--1----1-- 1
+-----0--0----1-- 1
+--1------1---1-- 1
+--0------0---1-- 1
+-----0--1----0-- 1
+-----1--0----0-- 1
+--0------1---0-- 1
+--1------0---0-- 1
+--0--11-------1- 1
+--1--01-------1- 1
+--1--10-------1- 1
+--0--00-------1- 1
+0--1------1---1- 1
+1--0------1---1- 1
+1--1------0---1- 1
+0--0------0---1- 1
+--1--11-------0- 1
+--0--01-------0- 1
+--0--10-------0- 1
+--1--00-------0- 1
+1--1------1---0- 1
+0--0------1---0- 1
+0--1------0---0- 1
+1--0------0---0- 1
+0------1---1---1 1
+1------0---1---1 1
+1------1---0---1 1
+0------0---0---1 1
+1------1---1---0 1
+0------0---1---0 1
+0------1---0---0 1
+1------0---0---0 1
+.e

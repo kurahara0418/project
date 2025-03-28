@@ -1,0 +1,54 @@
+# /Users/kurahararikuto/sboxanalyzer/espresso/build/espresso -Dmany -estrong -epos -s -t -of solver_func/tt/signed/XOR_3_tt.txt
+# UC Berkeley, Espresso Version v2.4, Release date 06/25/21
+# READ       	Time was 0.00 sec, cost is c=33(33) in=297 out=33 tot=330
+# COMPL      	Time was 0.00 sec, cost is c=34(34) in=139 out=34 tot=173
+# PLA is solver_func/tt/signed/XOR_3_tt.txt with 9 inputs and 1 outputs
+# ON-set cost is  c=34(34) in=139 out=34 tot=173
+# OFF-set cost is c=33(33) in=297 out=33 tot=330
+# DC-set cost is  c=0(0) in=0 out=0 tot=0
+# phase is --------- 0
+# EXPAND     	Time was 0.00 sec, cost is c=34(0) in=135 out=34 tot=169
+# IRRED      	Time was 0.00 sec, cost is c=31(0) in=123 out=31 tot=154
+# ESSEN      	Time was 0.00 sec, cost is c=5(0) in=20 out=5 tot=25
+# REDUCE     	Time was 0.00 sec, cost is c=26(22) in=166 out=26 tot=192
+# EXPAND     	Time was 0.00 sec, cost is c=17(0) in=63 out=17 tot=80
+# IRRED      	Time was 0.00 sec, cost is c=17(0) in=63 out=17 tot=80
+# REDUCE     	Time was 0.00 sec, cost is c=17(13) in=95 out=17 tot=112
+# EXPAND     	Time was 0.00 sec, cost is c=17(0) in=63 out=17 tot=80
+# IRRED      	Time was 0.00 sec, cost is c=17(0) in=63 out=17 tot=80
+# REDUCE_GASP	Time was 0.00 sec, cost is c=17(14) in=96 out=17 tot=113
+# EXPAND_GASP	Time was 0.00 sec, cost is c=32(0) in=155 out=32 tot=187
+# NEWPRIMES	Time was 0.00 sec, cost is c=39(0) in=177 out=39 tot=216
+# IRRED      	Time was 0.00 sec, cost is c=17(0) in=68 out=17 tot=85
+# ADJUST     	Cost is c=22(0) in=88 out=22 tot=110
+# MV_REDUCE  	Time was 0.00 sec, cost is c=22(0) in=88 out=22 tot=110
+# ESPRESSO   	Time was 0.00 sec, cost is c=22(0) in=88 out=22 tot=110
+.i 9
+.o 1
+.ilb a0 a1 a2 a3 a4 a5 b0 b1 p0
+.ob F
+#.phase 0
+.p 22
+10------- 1
+--10----- 1
+----10--- 1
+------10- 1
+-------01 1
+---1-1--1 1
+-0-0-0--1 1
+-0-0-1--0 1
+-0-1-0--0 1
+00-----10 1
+-100-1-1- 1
+-1-100-1- 1
+0-0-0-1-0 1
+-10000--0 1
+0-0-1-010 1
+0-1-0-010 1
+1-0-0-010 1
+1-0-1-1-- 1
+0-1-1-1-- 1
+1-1-1-0-- 1
+1-1-0-1-- 1
+-1-1-1-0- 1
+.e

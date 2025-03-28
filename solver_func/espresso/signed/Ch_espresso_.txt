@@ -1,0 +1,59 @@
+# /Users/kurahararikuto/sboxanalyzer/espresso/build/espresso -Dmany -estrong -epos -s -t -of solver_func/tt/signed/Ch_tt_.txt
+# UC Berkeley, Espresso Version v2.4, Release date 06/25/21
+# READ       	Time was 0.00 sec, cost is c=45(45) in=450 out=45 tot=495
+# COMPL      	Time was 0.00 sec, cost is c=39(39) in=135 out=39 tot=174
+# PLA is solver_func/tt/signed/Ch_tt_.txt with 10 inputs and 1 outputs
+# ON-set cost is  c=39(39) in=135 out=39 tot=174
+# OFF-set cost is c=45(45) in=450 out=45 tot=495
+# DC-set cost is  c=0(0) in=0 out=0 tot=0
+# phase is ---------- 0
+# EXPAND     	Time was 0.00 sec, cost is c=38(0) in=129 out=38 tot=167
+# IRRED      	Time was 0.00 sec, cost is c=27(0) in=91 out=27 tot=118
+# ESSEN      	Time was 0.00 sec, cost is c=13(0) in=38 out=13 tot=51
+# REDUCE     	Time was 0.00 sec, cost is c=14(14) in=99 out=14 tot=113
+# EXPAND     	Time was 0.00 sec, cost is c=12(0) in=46 out=12 tot=58
+# IRRED      	Time was 0.00 sec, cost is c=12(0) in=46 out=12 tot=58
+# REDUCE     	Time was 0.00 sec, cost is c=12(12) in=80 out=12 tot=92
+# EXPAND     	Time was 0.00 sec, cost is c=12(0) in=46 out=12 tot=58
+# IRRED      	Time was 0.00 sec, cost is c=11(0) in=43 out=11 tot=54
+# REDUCE     	Time was 0.00 sec, cost is c=11(11) in=70 out=11 tot=81
+# EXPAND     	Time was 0.00 sec, cost is c=11(0) in=43 out=11 tot=54
+# IRRED      	Time was 0.00 sec, cost is c=11(0) in=43 out=11 tot=54
+# REDUCE_GASP	Time was 0.00 sec, cost is c=11(11) in=73 out=11 tot=84
+# EXPAND_GASP	Time was 0.00 sec, cost is c=11(0) in=73 out=11 tot=84
+# NEWPRIMES	Time was 0.00 sec, cost is c=22(0) in=116 out=22 tot=138
+# IRRED      	Time was 0.00 sec, cost is c=11(0) in=65 out=11 tot=76
+# ADJUST     	Cost is c=24(0) in=103 out=24 tot=127
+# MV_REDUCE  	Time was 0.00 sec, cost is c=24(0) in=103 out=24 tot=127
+# ESPRESSO   	Time was 0.00 sec, cost is c=24(0) in=103 out=24 tot=127
+.i 10
+.o 1
+.ilb a0 a1 a2 a3 a4 a5 b0 b1 p0 p1
+.ob F
+#.phase 0
+.p 24
+-1-0-----0 1
+---0---1-0 1
+--0-0-110- 1
+---100--00 1
+---1-10001 1
+-10111-10- 1
+-11101-10- 1
+000-11--00 1
+--11110-00 1
+--0-010000 1
+001101--00 1
+---0-0-10- 1
+--0101---1 1
+--1--001-- 1
+-0-0-0---1 1
+---01-01-- 1
+-----1--1- 1
+--1-1----1 1
+------10-- 1
+10-------- 1
+-------01- 1
+---1----1- 1
+----10---- 1
+--10------ 1
+.e

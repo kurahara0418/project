@@ -1,0 +1,80 @@
+# /Users/kurahararikuto/sboxanalyzer/espresso/build/espresso -Dmany -estrong -epos -s -t -of /Users/kurahararikuto/Documents/python/snowv/tt/B_mul_x_tt.txt
+# UC Berkeley, Espresso Version v2.4, Release date 06/25/21
+# READ       	Time was 0.05 sec, cost is c=65536(65536) in=2097152 out=65536 tot=2162688
+# COMPL      	Time was 0.23 sec, cost is c=46(46) in=120 out=46 tot=166
+# PLA is /Users/kurahararikuto/Documents/python/snowv/tt/B_mul_x_tt.txt with 32 inputs and 1 outputs
+# ON-set cost is  c=46(46) in=120 out=46 tot=166
+# OFF-set cost is c=65536(65536) in=2097152 out=65536 tot=2162688
+# DC-set cost is  c=0(0) in=0 out=0 tot=0
+# phase is -------------------------------- 0
+# EXPAND     	Time was 0.06 sec, cost is c=46(0) in=120 out=46 tot=166
+# IRRED      	Time was 0.00 sec, cost is c=46(0) in=120 out=46 tot=166
+# ESSEN      	Time was 0.00 sec, cost is c=16(0) in=32 out=16 tot=48
+# REDUCE     	Time was 0.00 sec, cost is c=30(28) in=116 out=30 tot=146
+# EXPAND     	Time was 0.05 sec, cost is c=30(0) in=88 out=30 tot=118
+# IRRED      	Time was 0.00 sec, cost is c=30(0) in=88 out=30 tot=118
+# REDUCE_GASP	Time was 0.00 sec, cost is c=30(28) in=116 out=30 tot=146
+# EXPAND_GASP	Time was 0.07 sec, cost is c=58(0) in=172 out=58 tot=230
+# NEWPRIMES	Time was 0.00 sec, cost is c=58(0) in=172 out=58 tot=230
+# IRRED      	Time was 537.17 sec, cost is c=28(0) in=84 out=28 tot=112
+# REDUCE     	Time was 0.00 sec, cost is c=28(20) in=104 out=28 tot=132
+# EXPAND     	Time was 0.03 sec, cost is c=28(0) in=84 out=28 tot=112
+# IRRED      	Time was 0.00 sec, cost is c=28(0) in=84 out=28 tot=112
+# REDUCE_GASP	Time was 0.00 sec, cost is c=28(20) in=104 out=28 tot=132
+# EXPAND_GASP	Time was 0.05 sec, cost is c=48(0) in=144 out=48 tot=192
+# NEWPRIMES	Time was 0.00 sec, cost is c=48(0) in=144 out=48 tot=192
+# IRRED      	Time was 2.53 sec, cost is c=28(0) in=84 out=28 tot=112
+# ADJUST     	Cost is c=44(0) in=116 out=44 tot=160
+# MV_REDUCE  	Time was 0.00 sec, cost is c=44(0) in=116 out=44 tot=160
+# ESPRESSO   	Time was 539.99 sec, cost is c=44(0) in=116 out=44 tot=160
+.i 32
+.o 1
+.ilb a0 a1 a2 a3 a4 a5 a6 a7 a8 a9 a10 a11 a12 a13 a14 a15 b0 b1 b2 b3 b4 b5 b6 b7 b8 b9 b10 b11 b12 b13 b14 b15
+.ob F
+#.phase 0
+.p 44
+11--------------1--------------- 1
+10--------------0--------------- 1
+0--------------0--------------1- 1
+0--------------1--------------0- 1
+--1--------------1-------------1 1
+--0--------------0-------------1 1
+-----1--------------1----------1 1
+-----0--------------0----------1 1
+--------1--------------1-------1 1
+--------0--------------0-------1 1
+----------1--------------1-----1 1
+----------0--------------0-----1 1
+-----------1--------------1----1 1
+-----------0--------------0----1 1
+---------------1--------------11 1
+---------------0--------------01 1
+-0--------------1--------------0 1
+-1--------------0--------------0 1
+--0--------------1-------------0 1
+--1--------------0-------------0 1
+-----0--------------1----------0 1
+-----1--------------0----------0 1
+--------0--------------1-------0 1
+--------1--------------0-------0 1
+----------0--------------1-----0 1
+----------1--------------0-----0 1
+-----------0--------------1----0 1
+-----------1--------------0----0 1
+--------------1--------------0-- 1
+--------------0--------------1-- 1
+-------------1--------------0--- 1
+-------------0--------------1--- 1
+------------1--------------0---- 1
+------------0--------------1---- 1
+---------1--------------0------- 1
+---------0--------------1------- 1
+-------1--------------0--------- 1
+-------0--------------1--------- 1
+------1--------------0---------- 1
+------0--------------1---------- 1
+----1--------------0------------ 1
+----0--------------1------------ 1
+---1--------------0------------- 1
+---0--------------1------------- 1
+.e

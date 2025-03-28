@@ -1,0 +1,71 @@
+# /Users/kurahararikuto/sboxanalyzer/espresso/build/espresso -Dmany -estrong -epos -s -t -of snow/tt/s_add_init_tt.txt
+# UC Berkeley, Espresso Version v2.4, Release date 06/25/21
+# READ       	Time was 0.00 sec, cost is c=16(16) in=144 out=16 tot=160
+# COMPL      	Time was 0.00 sec, cost is c=51(51) in=195 out=51 tot=246
+# PLA is snow/tt/s_add_init_tt.txt with 9 inputs and 1 outputs
+# ON-set cost is  c=51(51) in=195 out=51 tot=246
+# OFF-set cost is c=16(16) in=144 out=16 tot=160
+# DC-set cost is  c=0(0) in=0 out=0 tot=0
+# phase is --------- 0
+# EXPAND     	Time was 0.00 sec, cost is c=51(0) in=195 out=51 tot=246
+# IRRED      	Time was 0.00 sec, cost is c=51(0) in=195 out=51 tot=246
+# ESSEN      	Time was 0.00 sec, cost is c=1(0) in=5 out=1 tot=6
+# REDUCE     	Time was 0.00 sec, cost is c=50(48) in=361 out=50 tot=411
+# EXPAND     	Time was 0.00 sec, cost is c=31(0) in=119 out=31 tot=150
+# IRRED      	Time was 0.00 sec, cost is c=31(0) in=119 out=31 tot=150
+# REDUCE     	Time was 0.00 sec, cost is c=31(27) in=192 out=31 tot=223
+# EXPAND     	Time was 0.00 sec, cost is c=30(0) in=109 out=30 tot=139
+# IRRED      	Time was 0.00 sec, cost is c=30(0) in=109 out=30 tot=139
+# REDUCE     	Time was 0.00 sec, cost is c=30(26) in=175 out=30 tot=205
+# EXPAND     	Time was 0.00 sec, cost is c=30(0) in=109 out=30 tot=139
+# IRRED      	Time was 0.00 sec, cost is c=30(0) in=109 out=30 tot=139
+# REDUCE_GASP	Time was 0.00 sec, cost is c=30(29) in=223 out=30 tot=253
+# EXPAND_GASP	Time was 0.00 sec, cost is c=83(0) in=383 out=83 tot=466
+# NEWPRIMES	Time was 0.00 sec, cost is c=96(0) in=421 out=96 tot=517
+# IRRED      	Time was 0.00 sec, cost is c=26(0) in=96 out=26 tot=122
+# REDUCE     	Time was 0.00 sec, cost is c=26(21) in=140 out=26 tot=166
+# EXPAND     	Time was 0.00 sec, cost is c=26(0) in=95 out=26 tot=121
+# IRRED      	Time was 0.00 sec, cost is c=25(0) in=93 out=25 tot=118
+# REDUCE     	Time was 0.00 sec, cost is c=25(21) in=135 out=25 tot=160
+# EXPAND     	Time was 0.00 sec, cost is c=25(0) in=93 out=25 tot=118
+# IRRED      	Time was 0.00 sec, cost is c=25(0) in=93 out=25 tot=118
+# REDUCE_GASP	Time was 0.00 sec, cost is c=25(24) in=152 out=25 tot=177
+# EXPAND_GASP	Time was 0.00 sec, cost is c=28(0) in=161 out=28 tot=189
+# NEWPRIMES	Time was 0.00 sec, cost is c=51(0) in=246 out=51 tot=297
+# IRRED      	Time was 0.00 sec, cost is c=25(0) in=99 out=25 tot=124
+# ADJUST     	Cost is c=26(0) in=104 out=26 tot=130
+# MV_REDUCE  	Time was 0.00 sec, cost is c=26(0) in=104 out=26 tot=130
+# ESPRESSO   	Time was 0.00 sec, cost is c=26(0) in=104 out=26 tot=130
+.i 9
+.o 1
+.ilb a0 a1 a2 a3 b0 b1 b2 b3 b4
+.ob F
+#.phase 0
+.p 26
+-----11-- 1
+-----1-1- 1
+------11- 1
+0-------1 1
+-0------1 1
+--0-----1 1
+---0----1 1
+-11--1--- 1
+00-----1- 1
+----1--00 1
+111-0---- 1
+11-10---- 1
+1-11--1-- 1
+00-0--1-- 1
+--110-0-- 1
+0101--0-- 1
+1001--0-- 1
+1010--0-- 1
+1100--0-- 1
+1111---1- 1
+0111---0- 1
+0100-0--0 1
+1000-0--0 1
+0-10-00-0 1
+000100-00 1
+0000-1--- 1
+.e

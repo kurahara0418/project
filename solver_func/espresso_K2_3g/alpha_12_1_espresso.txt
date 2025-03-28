@@ -1,0 +1,259 @@
+# /Users/kurahararikuto/sboxanalyzer/espresso/build/espresso -Dmany -estrong -epos -s -t -of snow/tt/alpha_12_1_tt.txt
+# UC Berkeley, Espresso Version v2.4, Release date 06/25/21
+# READ       	Time was 0.00 sec, cost is c=512(512) in=8704 out=512 tot=9216
+# COMPL      	Time was 0.01 sec, cost is c=1416(1416) in=11429 out=1416 tot=12845
+# PLA is snow/tt/alpha_12_1_tt.txt with 17 inputs and 1 outputs
+# ON-set cost is  c=1416(1416) in=11429 out=1416 tot=12845
+# OFF-set cost is c=512(512) in=8704 out=512 tot=9216
+# DC-set cost is  c=0(0) in=0 out=0 tot=0
+# phase is ----------------- 0
+# EXPAND     	Time was 0.01 sec, cost is c=1408(0) in=11027 out=1408 tot=12435
+# IRRED      	Time was 0.05 sec, cost is c=857(0) in=6554 out=857 tot=7411
+# ESSEN      	Time was 0.05 sec, cost is c=0(0) in=0 out=0 tot=0
+# REDUCE     	Time was 0.03 sec, cost is c=857(543) in=8966 out=857 tot=9823
+# EXPAND     	Time was 0.01 sec, cost is c=604(0) in=4232 out=604 tot=4836
+# IRRED      	Time was 0.06 sec, cost is c=450(0) in=3093 out=450 tot=3543
+# REDUCE     	Time was 0.05 sec, cost is c=450(208) in=3676 out=450 tot=4126
+# EXPAND     	Time was 0.00 sec, cost is c=423(0) in=2827 out=423 tot=3250
+# IRRED      	Time was 0.02 sec, cost is c=378(0) in=2503 out=378 tot=2881
+# REDUCE     	Time was 0.05 sec, cost is c=378(171) in=3015 out=378 tot=3393
+# EXPAND     	Time was 0.00 sec, cost is c=355(0) in=2309 out=355 tot=2664
+# IRRED      	Time was 0.02 sec, cost is c=314(0) in=2026 out=314 tot=2340
+# REDUCE     	Time was 0.05 sec, cost is c=314(129) in=2426 out=314 tot=2740
+# EXPAND     	Time was 0.00 sec, cost is c=298(0) in=1897 out=298 tot=2195
+# IRRED      	Time was 0.01 sec, cost is c=285(0) in=1807 out=285 tot=2092
+# REDUCE     	Time was 0.05 sec, cost is c=285(120) in=2167 out=285 tot=2452
+# EXPAND     	Time was 0.00 sec, cost is c=274(0) in=1722 out=274 tot=1996
+# IRRED      	Time was 0.01 sec, cost is c=258(0) in=1608 out=258 tot=1866
+# REDUCE     	Time was 0.05 sec, cost is c=258(88) in=1854 out=258 tot=2112
+# EXPAND     	Time was 0.00 sec, cost is c=251(0) in=1548 out=251 tot=1799
+# IRRED      	Time was 0.01 sec, cost is c=242(0) in=1490 out=242 tot=1732
+# REDUCE     	Time was 0.04 sec, cost is c=242(85) in=1730 out=242 tot=1972
+# EXPAND     	Time was 0.00 sec, cost is c=236(0) in=1440 out=236 tot=1676
+# IRRED      	Time was 0.00 sec, cost is c=232(0) in=1412 out=232 tot=1644
+# REDUCE     	Time was 0.04 sec, cost is c=232(74) in=1579 out=232 tot=1811
+# EXPAND     	Time was 0.00 sec, cost is c=229(0) in=1384 out=229 tot=1613
+# IRRED      	Time was 0.00 sec, cost is c=221(0) in=1330 out=221 tot=1551
+# REDUCE     	Time was 0.04 sec, cost is c=221(73) in=1537 out=221 tot=1758
+# EXPAND     	Time was 0.00 sec, cost is c=215(0) in=1285 out=215 tot=1500
+# IRRED      	Time was 0.00 sec, cost is c=211(0) in=1260 out=211 tot=1471
+# REDUCE     	Time was 0.04 sec, cost is c=211(67) in=1410 out=211 tot=1621
+# EXPAND     	Time was 0.00 sec, cost is c=207(0) in=1236 out=207 tot=1443
+# IRRED      	Time was 0.00 sec, cost is c=205(0) in=1225 out=205 tot=1430
+# REDUCE     	Time was 0.04 sec, cost is c=205(60) in=1387 out=205 tot=1592
+# EXPAND     	Time was 0.00 sec, cost is c=198(0) in=1179 out=198 tot=1377
+# IRRED      	Time was 0.00 sec, cost is c=196(0) in=1167 out=196 tot=1363
+# REDUCE     	Time was 0.03 sec, cost is c=196(53) in=1302 out=196 tot=1498
+# EXPAND     	Time was 0.00 sec, cost is c=194(0) in=1155 out=194 tot=1349
+# IRRED      	Time was 0.00 sec, cost is c=191(0) in=1135 out=191 tot=1326
+# REDUCE     	Time was 0.03 sec, cost is c=191(50) in=1238 out=191 tot=1429
+# EXPAND     	Time was 0.00 sec, cost is c=190(0) in=1127 out=190 tot=1317
+# IRRED      	Time was 0.00 sec, cost is c=189(0) in=1120 out=189 tot=1309
+# REDUCE     	Time was 0.03 sec, cost is c=189(48) in=1221 out=189 tot=1410
+# EXPAND     	Time was 0.00 sec, cost is c=186(0) in=1100 out=186 tot=1286
+# IRRED      	Time was 0.00 sec, cost is c=184(0) in=1086 out=184 tot=1270
+# REDUCE     	Time was 0.03 sec, cost is c=184(42) in=1147 out=184 tot=1331
+# EXPAND     	Time was 0.00 sec, cost is c=183(0) in=1077 out=183 tot=1260
+# IRRED      	Time was 0.00 sec, cost is c=182(0) in=1070 out=182 tot=1252
+# REDUCE     	Time was 0.03 sec, cost is c=182(37) in=1127 out=182 tot=1309
+# EXPAND     	Time was 0.00 sec, cost is c=181(0) in=1065 out=181 tot=1246
+# IRRED      	Time was 0.00 sec, cost is c=181(0) in=1065 out=181 tot=1246
+# REDUCE     	Time was 0.03 sec, cost is c=181(38) in=1123 out=181 tot=1304
+# EXPAND     	Time was 0.00 sec, cost is c=181(0) in=1064 out=181 tot=1245
+# IRRED      	Time was 0.00 sec, cost is c=181(0) in=1064 out=181 tot=1245
+# REDUCE_GASP	Time was 0.03 sec, cost is c=181(59) in=1169 out=181 tot=1350
+# EXPAND_GASP	Time was 0.10 sec, cost is c=855(0) in=6542 out=855 tot=7397
+# NEWPRIMES	Time was 0.00 sec, cost is c=891(0) in=6748 out=891 tot=7639
+# IRRED      	Time was 0.27 sec, cost is c=175(0) in=1037 out=175 tot=1212
+# REDUCE     	Time was 0.03 sec, cost is c=175(26) in=1070 out=175 tot=1245
+# EXPAND     	Time was 0.00 sec, cost is c=175(0) in=1037 out=175 tot=1212
+# IRRED      	Time was 0.00 sec, cost is c=175(0) in=1037 out=175 tot=1212
+# REDUCE_GASP	Time was 0.03 sec, cost is c=175(42) in=1090 out=175 tot=1265
+# EXPAND_GASP	Time was 0.00 sec, cost is c=183(0) in=1121 out=183 tot=1304
+# NEWPRIMES	Time was 0.00 sec, cost is c=218(0) in=1330 out=218 tot=1548
+# IRRED      	Time was 0.02 sec, cost is c=175(0) in=1041 out=175 tot=1216
+# ADJUST     	Cost is c=175(0) in=1041 out=175 tot=1216
+# MV_REDUCE  	Time was 0.00 sec, cost is c=175(0) in=1041 out=175 tot=1216
+# ESPRESSO   	Time was 1.65 sec, cost is c=175(0) in=1041 out=175 tot=1216
+.i 17
+.o 1
+.ilb a0 a1 a2 a3 a4 a5 a6 a7 b0 b1 b2 b3 b4 b5 b6 b7 f0
+.ob F
+#.phase 0
+.p 175
+-1---0--1--1----1 1
+-0---0--0--1----1 1
+-1---1--1--0----1 1
+-0---1--0--0----1 1
+--0---1--1--1---1 1
+--0---0--1--0---1 1
+---1---0--1--1--1 1
+---1---1--0--1--1 1
+---0---0--0--1--1 1
+---1---1--1--0--1 1
+---0---1--0--0--1 1
+0--1---1---1----0 1
+1--0---1---1----0 1
+1--1---0---1----0 1
+0--0---0---1----0 1
+1--1---1---0----0 1
+0--0---1---0----0 1
+0--1---0---0----0 1
+1--0---0---0----0 1
+01--1-------1---0 1
+00--0-------1---0 1
+11--1-------0---0 1
+10--0-------0---0 1
+-1--0----1---1--0 1
+-0----1----1-1--0 1
+-0----0----0-1--0 1
+1--------0--11--0 1
+0--------0--01--0 1
+-0--1----0---0--0 1
+-1----1----1-0--0 1
+-1----0----0-0--0 1
+1--------1--10--0 1
+0--------1--00--0 1
+----1----10---1-0 1
+----0----00---1-0 1
+----1----11---0-0 1
+----0----01---0-0 1
+--0--------1--110 1
+--1--------0--110 1
+--1--------1--010 1
+--0--------0--010 1
+--1---1---1----00 1
+--0---0---1----00 1
+--0---1---0----00 1
+--1---0---0----00 1
+--111--1-1------1 1
+--100--1-1------1 1
+--101--0-1------1 1
+--110--0-1------1 1
+---101--1-0-----1 1
+---110--1-0-----1 1
+---111--0-0-----1 1
+---100--0-0-----1 1
+----111--1-1----1 1
+----010--1-1----1 1
+----011--0-1----1 1
+----110--0-1----1 1
+-0-01-----11----1 1
+-1-00-----11----1 1
+----101--1-0----1 1
+----000--1-0----1 1
+----001--0-0----1 1
+----100--0-0----1 1
+-1-01-----10----1 1
+-0-00-----10----1 1
+---01-01----1---1 1
+---11-00----1---1 1
+-01-0---1---1---1 1
+-11-0---0---1---1 1
+-01-1---1---0---1 1
+-11-1---0---0---1 1
+--0-1-1--0--0---1 1
+--1-0-0--0--0---1 1
+----00-11----1--1 1
+----01-10----1--1 1
+-1--1--1---1-1--1 1
+-0--1--1---0-1--1 1
+----1-1---1-11--1 1
+----0-0---1-11--1 1
+----0-1---1-01--1 1
+-1--1--0---1-0--1 1
+-0--0--0---1-0--1 1
+-0--1--0---0-0--1 1
+-1--0--0---0-0--1 1
+----1-1---0-10--1 1
+----0-0---0-10--1 1
+----0-1---0-00--1 1
+11--11--------1-1 1
+00--11--------1-1 1
+01--01--------1-1 1
+01--10--------1-1 1
+10--10--------1-1 1
+00--00--------1-1 1
+1---0---0--1--1-1 1
+1---0---1--0--1-1 1
+01--11--------0-1 1
+10--11--------0-1 1
+00--01--------0-1 1
+11--10--------0-1 1
+00--10--------0-1 1
+01--00--------0-1 1
+0---0--1--1----11 1
+0---0--0--0----11 1
+0--01--------1-11 1
+0--11--------0-11 1
+----1----1--1-111 1
+----1----0--0-111 1
+----0----1--1-011 1
+----0----0--0-011 1
+0---1--1--1----01 1
+1---0--1--1----01 1
+0---1--0--0----01 1
+1---0--0--0----01 1
+1--01--------1-01 1
+1--11--------0-01 1
+--1-0-1-------101 1
+--0-0-0-------101 1
+----0----0--1-001 1
+----0----1--0-001 1
+-----1-1-00--1--0 1
+-----1-0-11--0--0 1
+-----1-1-01--0--0 1
+-----1-0-00--0--0 1
+--1---0---11--1-0 1
+--0---1---10--1-0 1
+---0-01-----1-1-0 1
+---1-00-----1-1-0 1
+--0----11---0-1-0 1
+--1----01---0-1-0 1
+--1----10---0-1-0 1
+--0----00---0-1-0 1
+--0---0---01--0-0 1
+--1---1---00--0-0 1
+--0----11---1-0-0 1
+--1----01---1-0-0 1
+--1----10---1-0-0 1
+--0----00---1-0-0 1
+---0-01-----0-0-0 1
+---1-00-----0-0-0 1
+-000--111-------1 1
+-001--011-------1 1
+-001--101-------1 1
+-000--001-------1 1
+-100--110-------1 1
+-101--010-------1 1
+-101--100-------1 1
+-100--000-------1 1
+--101-11-0------1 1
+--000-01-0------1 1
+--111-10-0------1 1
+--010-00-0------1 1
+110--11--------11 1
+100--01--------11 1
+111--10--------11 1
+101--00--------11 1
+--10-1111-------0 1
+--11-0111-------0 1
+--11-1011-------0 1
+--10-0011-------0 1
+--00-1101-------0 1
+--01-0101-------0 1
+--01-1001-------0 1
+--00-0001-------0 1
+--00-1110-------0 1
+--01-0110-------0 1
+--01-1010-------0 1
+--00-0010-------0 1
+--10-1100-------0 1
+--11-0100-------0 1
+--11-1000-------0 1
+--10-0000-------0 1
+-1---1-1-1--1-1-0 1
+----01-0----111-0 1
+-0---1-1-1--0-0-0 1
+----11-0----010-0 1
+.e

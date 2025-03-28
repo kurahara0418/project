@@ -1,0 +1,53 @@
+# /Users/kurahararikuto/sboxanalyzer/espresso/build/espresso -Dmany -estrong -epos -s -t -of solver_func/tt/v_addition_tt.txt
+# UC Berkeley, Espresso Version v2.4, Release date 06/25/21
+# READ       	Time was 0.00 sec, cost is c=32(32) in=192 out=32 tot=224
+# COMPL      	Time was 0.00 sec, cost is c=24(24) in=120 out=24 tot=144
+# PLA is solver_func/tt/v_addition_tt.txt with 6 inputs and 1 outputs
+# ON-set cost is  c=24(24) in=120 out=24 tot=144
+# OFF-set cost is c=32(32) in=192 out=32 tot=224
+# DC-set cost is  c=0(0) in=0 out=0 tot=0
+# phase is ------ 0
+# EXPAND     	Time was 0.00 sec, cost is c=24(0) in=120 out=24 tot=144
+# IRRED      	Time was 0.00 sec, cost is c=24(0) in=120 out=24 tot=144
+# ESSEN      	Time was 0.00 sec, cost is c=24(0) in=120 out=24 tot=144
+# REDUCE     	Time was 0.00 sec, cost is c=0(0) in=0 out=0 tot=0
+# EXPAND     	Time was 0.00 sec, cost is c=0(0) in=0 out=0 tot=0
+# IRRED      	Time was 0.00 sec, cost is c=0(0) in=0 out=0 tot=0
+# REDUCE_GASP	Time was 0.00 sec, cost is c=0(0) in=0 out=0 tot=0
+# EXPAND_GASP	Time was 0.00 sec, cost is c=0(0) in=0 out=0 tot=0
+# NEWPRIMES	Time was 0.00 sec, cost is c=0(0) in=0 out=0 tot=0
+# IRRED      	Time was 0.00 sec, cost is c=0(0) in=0 out=0 tot=0
+# ADJUST     	Cost is c=24(0) in=120 out=24 tot=144
+# MV_REDUCE  	Time was 0.00 sec, cost is c=24(0) in=120 out=24 tot=144
+# ESPRESSO   	Time was 0.00 sec, cost is c=24(0) in=120 out=24 tot=144
+.i 6
+.o 1
+.ilb a0 a1 a2 a3 a4 a5
+.ob F
+#.phase 0
+.p 24
+000-10 1
+110-10 1
+101-10 1
+011-10 1
+0001-0 1
+1101-0 1
+1011-0 1
+0111-0 1
+100-01 1
+010-01 1
+001-01 1
+111-01 1
+1000-1 1
+0100-1 1
+0010-1 1
+1110-1 1
+10000- 1
+01000- 1
+00100- 1
+11100- 1
+00011- 1
+11011- 1
+10111- 1
+01111- 1
+.e

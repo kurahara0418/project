@@ -1,0 +1,10 @@
+# /Users/kurahararikuto/sboxanalyzer/espresso/build/espresso -Dmany -estrong -epos -s -t -of snow/tt/comp_15to4.txt
+# UC Berkeley, Espresso Version v2.4, Release date 06/25/21
+# READ       	Time was 0.01 sec, cost is c=32768(32768) in=622592 out=32768 tot=655360
+# COMPL      	Time was 15.50 sec, cost is c=85734(85734) in=1210518 out=85734 tot=1296252
+# PLA is snow/tt/comp_15to4.txt with 19 inputs and 1 outputs
+# ON-set cost is  c=85734(85734) in=1210518 out=85734 tot=1296252
+# OFF-set cost is c=32768(32768) in=622592 out=32768 tot=655360
+# DC-set cost is  c=0(0) in=0 out=0 tot=0
+# phase is ------------------- 0
+# EXPAND     	Time was 64.44 sec, cost is c=85734(0) in=1210518 out=85734 tot=1296252
