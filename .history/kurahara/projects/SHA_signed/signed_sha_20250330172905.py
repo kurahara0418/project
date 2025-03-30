@@ -1,5 +1,5 @@
 import sys
-sys.path.append('/Users/kurahararikuto/Documents/Kurahara_project/kurahara')
+sys.path.append('kurahara')
 
 from pysat.card import *
 from pysat.formula import CNF
@@ -52,8 +52,8 @@ def signed_SHA(round,weight,upper,up):
     start = time.perf_counter()
     total = time.perf_counter() 
     while weight < upper:
-        cnfpath = "kurahara/projects/SHA_signed/cnf_file/R{}_DCP{}.cnf".format(round,weight)
-        logpath = "kurahara/projects/SHA_signed/log_file/R{}_DCP{}.txt".format(round,weight) 
+        cnfpath = "SHA/cnf_file/R{}_DCP{}.cnf".format(round,weight)
+        logpath = "SHA/log_file/R{}_DCP{}.txt".format(round,weight) 
         cnf = []
         num = 2
         if round<16:
